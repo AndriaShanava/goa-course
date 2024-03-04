@@ -1,3 +1,5 @@
-print(type(5 < 9))
-print(type(50 > 100))
-print(50 < 60)
+son_age = int(input("how old are you?: "))
+parent_age = int(input("how old are you?: "))
+
+comperetion = son_age > parent_age
+print(comperetion)
