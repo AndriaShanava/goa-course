@@ -1,0 +1,73 @@
+<!-- day 31:
+ 1) sololearn module 2 quiz ის ჩათვლით
+ 2) შექმენით ფორმა, სადაც მომხმარებელი შეიტანს სახელს, გვარს, ემაილს, პაროლს, და იქნება რამდენიმე select,
+  ერთი იქნება საჭმელების ჩამონათვალი, მეორეში სპორტის სხვადასხვა სახეების ჩამონათვალი,
+  მესამეში იქნება მანქანების ჩამონათვალი, ბოლოს იქნება ერთი submit ღილაკი რომელიც ამ ყველა ინფორმაციას გადააგზავნის ბაზაში,
+   კოდი დაწერეთ სწორად, სტრუქტურის დაცვით
+    ატრიბუტების გამოყენებით(for, id, name, value) და ასევე დაამატეთ label ები -->
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 id="a1">Personal information</h1>
+    <form>
+        <label>First name : </label>
+        <input type="text"><br>
+
+        <label>Last name : </label>
+        <input type="text"><br>
+    </form>
+    <h1 id="a2">Information</h1>
+    <form>
+        <label>Email: </label>
+        <input type="text"><br>
+
+        <label>Password : </label>
+        <input type="text"><br>
+
+        <label>Phone Number : </label>
+        <input type="text"><br>
+
+    </form>
+     <br>
+     <br>
+     <form action="">
+    <select name="food" id="food">
+        <option value="">საჭმელი</option>
+        <option value="">ხაჭაპური</option>
+        <option value="">ლობიო</option>
+        <option value="">ღომი</option>
+        <option value="">მწვადი</option>
+        <option value="">ელარჯი</option>
+    </select>
+ 
+    <select name="cars" id="cars">
+        <option value="">მანქანები</option>
+        <option value="">toyota</option>
+        <option value="">mercedes</option>
+        <option value="">bmw</option>
+        <option value="">mazerati</option>
+        <option value="">lamborghini</option>
+    </select>
+
+    <select name="sport" id="sport">
+        <option value="">სპორტი</option>
+        <option value="">ცურვა</option>
+        <option value="">კალათბურთი</option>
+        <option value="">ფეხბურთი</option>
+        <option value="">ფრენბურთი</option>
+        <option value="">ჭიდაობა</option>
+    </select>
+<br>
+<br>
+    <input type="Submit">
+   </form>
+    </body>
+    </html>
