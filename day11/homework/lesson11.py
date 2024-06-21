@@ -5,6 +5,6 @@ if  mother_age > father_age:
     print("დედა! თუ შენ მამაზე უფროსი ხარ ესეიგი შენ შესაძლოა უფრო ჭკვიანი ხარ")
 
 
-if  father_age > mother_age:
+elif  father_age > mother_age:
     print("მამა! თუ შენ დედაზე უფროსი ხარ ესეიგი შენ შესაძლოა უფრო ჭკვიანი ხარ")
 

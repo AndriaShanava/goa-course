@@ -25,7 +25,7 @@ print("this is odd number: ", odd_numbers )
 numbers = input("შემოიტანეთ რიცხვები: ")
 
 # სიაში გადაყვანა რიცხვებისგან
-numbers_list = list(map(int, numbers))
+numbers_list = list(map(int, numbers.split()))
 
 # ორნიშნა რიცხვების რაოდენობის დათვლა
 two_digit_count = sum(1 for num in numbers_list if 10 <= num <= 99)

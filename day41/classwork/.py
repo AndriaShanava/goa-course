@@ -1,3 +1,9 @@
-x = map('apple', 'banana', 'cherry')
+numbers = [1, 2, 3, 4, 5]
 
-print(x)
+
+reversed_numbers = list(reversed(numbers))
+
+
+new_list = numbers + reversed_numbers
+
+print(new_list)
