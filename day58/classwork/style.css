@@ -1,0 +1,18 @@
+/* External CSS */
+.external-button {
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+
+.external-text1 {
+    color: blue;
+    background-color: lightgreen;
+    font-size: 22px;
+}
+
+.external-text2 {
+    color: darkred;
+    background-color: lightcoral;
+    font-size: 20px;
+}
