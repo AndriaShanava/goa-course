@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფილმების შემთხვევითი არჩევა</title>
+    <style>
+        /* CSS Styles */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .movie {
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+        }
+
+        .movie-info {
+            padding: 15px;
+        }
+
+        .movie-info h2 {
+            font-size: 28px;
+            margin: 0 0 10px 0;
+            color: #ff6347;
+        }
+
+        .movie-info p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #ffffff;
+            background-color: #ff6347;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #e55340;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="movie" class="movie">
+            <!-- Content will be injected by JavaScript -->
+        </div>
+        <button class="button" onclick="loadRandomMovie()">დაეტვირთოს შემთხვევითი ფილმი</button>
+    </div>
+
+    <script>
+        const movies = [
+            {
+                title: "ფილმი 1",
+                description: "ეს არის ფილმის აღწერა 1. მოკლე ინფორმაცია ფილმზე, მისი შინაარსის ან მომხიბვლელობის შესახებ.",
+                image: "movie1.jpg"
+            },
+            {
+                title: "ფილმი 2",
+                description: "ეს არის ფილმის აღწერა 2. მოკლე ინფორმაცია ფილმზე, მისი შინაარსის ან მომხიბვლელობის შესახებ.",
+                image: "movie2.jpg"
+            },
+            {
+                title: "ფილმი 3",
+                description: "ეს არის ფილმის აღწერა 3. მოკლე ინფორმაცია ფილმზე, მისი შინაარსის ან მომხიბვლელობის შესახებ.",
+                image: "movie3.jpg"
+            }
+            // დაამატეთ მეტი ფილმი ამ ფორმატით
+        ];
+
+        function loadRandomMovie() {
+            const randomIndex = Math.floor(Math.random() * movies.length);
+            const movie = movies[randomIndex];
+
+            document.getElementById('movie').innerHTML = `
+                <img src="${movie.image}" alt="${movie.title}">
+                <div class="movie-info">
+                    <h2>${movie.title}</h2>
+                    <p>${movie.description}</p>
+                </div>
+            `;
+        }
+
+        // Load a random movie on page load
+        window.onload = loadRandomMovie;
+    </script>
+</body>
+</html>

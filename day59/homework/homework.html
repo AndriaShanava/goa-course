@@ -1,0 +1,135 @@
+<!-- საიტის აწყობა საყვარელ მანქანაზე, სამივე CSS ტექნიკის გამოყენებით -->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes-Benz S-Class</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal CSS */
+        body {
+            background-color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-name {
+            color: darkblue;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .car-description {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .car-image {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid #333;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .features, .performance, .technology, .safety {
+            margin-top: 30px;
+        }
+
+        .section-title {
+            color: #0066cc;
+            font-size: 28px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 5px;
+        }
+
+        .feature-item, .performance-item, .technology-item, .safety-item {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="car-name">Mercedes-Benz S-Class</h1>
+        <p class="car-description">
+            Mercedes-Benz S-Class წარმოადგენს მერსედესის ფლაგმან მოდელს, რომელიც შესანიშნავი კომბინაციაა პრემიუმ კლასის კომფორტისა, ტექნოლოგიებისა და ინოვაციების. ეს მოდელი განკუთვნილია მათთვის, ვისაც სურს მართოს ავტომობილი, რომელიც გაძლევს უმაღლეს კომფორტს და უსაფრთხოებას.
+        </p>
+
+        <!-- Inline CSS -->
+        <img src="mercedes-s-class.jpg" alt="Mercedes-Benz S-Class" class="car-image" style="border: 3px solid #333; width: 500px; ;">
+        <img src="mercedes-interior.jpg" alt="Mercedes-Benz Interior" class=" car-image" style="border: 3px solid #333; width: 450px; ;">
+        <div class="features">
+            <h2 class="section-title">ძირითადი მახასიათებლები:</h2>
+            <ul>
+                <li class="feature-item">Advanced Driver Assistance Systems (ADAS)</li>
+                <li class="feature-item">Luxurious Interior with Premium Materials</li>
+                <li class="feature-item">Powerful Engine Options</li>
+                <li class="feature-item">High-End Infotainment System</li>
+                <li class="feature-item">Exceptional Ride Comfort</li>
+            </ul>
+        </div>
+
+        <div class="performance">
+            <h2 class="section-title">წარმადობა:</h2>
+            <ul>
+                <li class="performance-item">0-100 კმ/სთ-ში 4.3 წამში</li>
+                <li class="performance-item">V8 Biturbo ძრავი 496 ცხენის ძალით</li>
+                <li class="performance-item">მულტილინკი ძარის დინამიკა</li>
+                <li class="performance-item">AIRMATIC® საჰაერო საკიდი</li>
+                <li class="performance-item">მრავალმაგი მართვის რეჟიმები</li>
+            </ul>
+        </div>
+
+        <div class="technology">
+            <h2 class="section-title">ტექნოლოგიები:</h2>
+            <ul>
+                <li class="technology-item">MBUX (Mercedes-Benz User Experience) სისტემის მხარდაჭერა</li>
+                <li class="technology-item">Augmented Reality ნავიგაცია</li>
+                <li class="technology-item">Touchpad კონტროლი</li>
+                <li class="technology-item">4D Surround Sound აუდიო სისტემა</li>
+                <li class="technology-item">Smartphone Integration (Apple CarPlay™ და Android Auto™)</li>
+            </ul>
+        </div>
+
+        <div class="safety">
+            <h2 class="section-title">უსაფრთხოება:</h2>
+            <ul>
+                <li class="safety-item">PRE-SAFE® და PRE-SAFE® PLUS სისტემები</li>
+                <li class="safety-item">Active Brake Assist</li>
+                <li class="safety-item">Blind Spot Assist</li>
+                <li class="safety-item">Lane Keeping Assist</li>
+                <li class="safety-item">Cross-Traffic Alert სისტემა</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 Mercedes-Benz. ყველა უფლება დაცულია.</p>
+        </div>
+    </div>
+</body>
+</html>
