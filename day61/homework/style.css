@@ -1,0 +1,61 @@
+/* ძირითადი სტილები */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* სათაურის სტილი */
+#main-title {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* ფილმების კოლექციის სტილები */
+#collection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* ინდივიდუალური ფილმების სტილი */
+.movie {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.movie-title {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.director {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* განსაკუთრებული ფილმი */
+.special-movie {
+    background-color: #ffeeba;
+    border-color: #ffc107;
+}
+
+/* ქვედა კოლონტიტული */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

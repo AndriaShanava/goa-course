@@ -1,0 +1,6 @@
+/* Selector - აირჩიეთ ელემენტი რომელიც უნდა დაისტილოს */
+.custom-paragraph {
+    /* Property - კუთვნილება რომელსაც ვცვლით */
+    color: /* Value - ფერი რომელსაც ვანიჭებთ */;
+    color: blue; /* Property: color, Value: blue */
+}
