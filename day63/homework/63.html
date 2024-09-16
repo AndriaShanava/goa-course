@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styling Example</title>
+    <style>
+        /* Type Selector: Applies styles to all <h1> elements */
+        h1 {
+            color: darkblue;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        /* Class Selector: Used for common styles */
+        .paragraph-style {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* ID Selector: Styles the element with a specific ID */
+        #highlighted {
+            color: red;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* Group Selector: Applies same styles to multiple elements */
+        h2, p {
+            font-family: 'Georgia', serif;
+            color: darkgreen;
+        }
+
+        /* Attribute Selector: Applies styles to links with 'title' attribute */
+        a[title] {
+            color: purple;
+            text-decoration: none;
+        }
+
+        /* Pseudo-class Selector: Changes the color of links when hovered */
+        a:hover {
+            color: orange;
+        }
+
+        /* Descendant Selector: Styles all <span> elements inside <div> */
+        div span {
+            font-size: 14px;
+            font-style: italic;
+            color: gray;
+        }
+
+        /* Universal Selector: Applies styles to all elements */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo-element Selector: Styles the first letter of paragraphs */
+        p::first-letter {
+            font-size: 28px;
+            color: blue;
+            font-weight: bold;
+        }
+
+        /* Child Selector: Styles direct child <li> elements of <ul> */
+        ul > li {
+            list-style-type: square;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is a Heading 1</h1>
+
+    <!-- Applying class selector for common paragraph style -->
+    <p class="paragraph-style">This is a paragraph styled with a class selector.</p>
+
+    <!-- Applying ID selector for a specific paragraph -->
+    <p id="highlighted">This paragraph is highlighted using an ID selector.</p>
+
+    <h2>This is a Heading 2</h2>
+    <p>This is another paragraph with a different styling.</p>
+
+    <!-- Link with a title attribute to demonstrate attribute selector -->
+    <a href="#" title="Link Title">Hover over this link</a>
+
+    <!-- Using descendant selector to style text inside a div -->
+    <div>
+        <span>This is some text inside a span within a div.</span>
+    </div>
+
+    <!-- Using child selector for list items -->
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+
+</body>
+</html>
