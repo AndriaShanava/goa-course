@@ -1,0 +1,16 @@
+/* პარაგრაფი ტალღოვანი ხაზით ქვეშ ცისფერში */
+.wave-underline {
+    text-decoration: underline wavy blue;
+}
+
+/* პარაგრაფი, რომელსაც შუაში აქვს გასმული სწორი წითელი ხაზი */
+.red-line-through {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+/* პარაგრაფი წყვეთილი ხაზით თავზე ლურჯ ფერში */
+.blue-top-dotted {
+    border-top: 2px dotted blue;
+    padding-top: 10px;
+}
