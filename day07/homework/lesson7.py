@@ -1,4 +1,4 @@
-balance = 780
+bealanc = 780
 print(type(balance))
 
 balance = "780"
