@@ -1,0 +1,27 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+ } 
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 0.3s ease; 
+}
+
+
+.box:hover {
+    width: 150px; 
+    height: 150px; 
+    background-color: blue; 
+}
+
+.box:active {
+    transform: translateY(200px); 
+    background-color: green; 
+}

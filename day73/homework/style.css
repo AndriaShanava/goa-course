@@ -1,0 +1,60 @@
+/* CSS for all the elements: */
+
+/* Roman Numerals in Ordered List */
+.roman-numerals {
+    list-style-type: upper-roman;
+  }
+  
+  /* Table with different border styles */
+  .styled-table {
+    border: 2px solid black; /* Border around the table */
+    border-collapse: separate; /* Keeping borders separate */
+  }
+  
+  .styled-table td {
+    border: 2px dashed blue; /* Dashed borders around cells */
+  }
+  
+  .styled-table tr {
+    border: 1px dotted red; /* Dotted borders between rows */
+  }
+  
+  /* Table with collapsed borders */
+  .collapsed-border-table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  .collapsed-border-table td {
+    border: 1px solid gray;
+  }
+  
+  /* Link pseudo-classes styling */
+  .styled-link:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .styled-link:visited {
+    color: purple;
+  }
+  
+  .styled-link:hover {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  .styled-link:active {
+    color: red;
+  }
+  
+  /* Styling ol to look like ul */
+  .styled-ol {
+    list-style-type: disc; /* Looks like unordered list */
+  }
+  
+  /* Styling ul to look like ol */
+  .styled-ul {
+    list-style-type: decimal; /* Looks like ordered list */
+  }
+  
