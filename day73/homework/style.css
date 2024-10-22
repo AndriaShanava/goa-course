@@ -7,7 +7,7 @@
   
   /* Table with different border styles */
   .styled-table {
-    border: 2px solid black; /* Border around the table */
+    /* border: 2px solid black; /* Border around the table */
     border-collapse: separate; /* Keeping borders separate */
   }
   
@@ -56,5 +56,4 @@
   /* Styling ul to look like ol */
   .styled-ul {
     list-style-type: decimal; /* Looks like ordered list */
-  }
-  
+  } 

@@ -1,0 +1,34 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px;
+    border-style: solid;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td {
+    background-color: #e0e0e0;
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+/* Borders for different sides */
+td {
+    border-width: 3px 5px 1px 4px; /* top right bottom left */
+    border-color: #ff5733 #33ff57 #3357ff #ff33a5;
+}
+
+th {
+    border-width: 5px 3px 4px 2px; /* top right bottom left */
+    border-color: #33a5ff #57ff33 #ff5733 #33ff57;
+}

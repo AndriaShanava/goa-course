@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Links Example</title>
+  <style>
+    /* 2. არასდროს დაჭერილი ლინკის ფერი ლურჯი */
+    a:link {
+      color: blue;
+    }
+
+    /* 3. მონახულებული ლინკის ფერი იასამნისფერი */
+    a:visited {
+      color: purple;
+    }
+
+    /* 4. მაუსის ლინკზე გადატარებისას ფერისა და background-ის შეცვლა */
+    a:hover {
+      color: white;
+      background-color: green;
+    }
+
+    /* 5. ლინკზე დაჭერის მომენტში background-ის გამუქება და ტექსტის ზომის შეცვლა */
+    a:active {
+      background-color: darkgreen;
+      font-size: 1.2em;
+    }
+
+    /* 6. ლინკი, რომელიც ნორმალურ მდგომარეობაში შავი იქნება და :hover-ის დროს მუქ ნაცრისფრად შეიცვლება */
+    .dark-hover-link {
+      color: black;
+      text-decoration: none;
+    }
+
+    .dark-hover-link:hover {
+      color: darkgray;
+    }
+
+    /* 7. ლინკები, რომლებიც :hover დროს მიიღებენ ხაზგასმას */
+    .underline-hover-link {
+      text-decoration: none;
+    }
+
+    .underline-hover-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Link examples -->
+  <p><a href="#" class="normal-link">ეს არის ნორმალური ლინკი</a></p>
+  <p><a href="#" class="dark-hover-link">ეს ლინკი მუქ ნაცრისფრად შეიცვლება hover-ის დროს</a></p>
+  <p><a href="#" class="underline-hover-link">ეს ლინკი hover-ზე ხაზგასმას მიიღებს</a></p>
+
+</body>
+</html>
