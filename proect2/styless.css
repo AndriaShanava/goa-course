@@ -1,0 +1,90 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+#services {
+    background: url('service-background.jpg') no-repeat center center fixed; /* Replace with your image */
+    background-size: cover;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    color: white; /* Change text color for better readability */
+}
+
+h2 {
+    text-align: center;
+    color: #b12704;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 4px solid #b12704;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service h3 {
+    color: #b12704;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #0a0a0a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

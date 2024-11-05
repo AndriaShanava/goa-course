@@ -1,0 +1,139 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    background-color: #0b0b0b;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: linear-gradient(to right, #0b0b0b, #111);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #00FF7F; /* მწვანე ფონტი */
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 30px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #00FF7F;
+  }
+  
+  /* Main Section */
+  main {
+    padding: 120px 50px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  main h1 {
+    font-size: 3em;
+    color: #00FF7F;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  main p {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    font-size: 1.2em;
+    color: #b0b0b0;
+  }
+  
+  /* Car Gallery */
+  .car-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .car {
+    background: linear-gradient(to bottom, #222, #111);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
+  }
+  
+  .car:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.9);
+  }
+  
+  .car img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .car h3 {
+    font-size: 1.5em;
+    color: #00FF7F;
+    margin: 10px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px 0;
+    background-color: #111;
+    text-align: center;
+    margin-top: 50px;
+    color: #b0b0b0;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer .social-media a {
+    margin: 0 10px;
+    color: #00FF7F;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer .social-media a:hover {
+    color: #ffffff;
+  }
+  

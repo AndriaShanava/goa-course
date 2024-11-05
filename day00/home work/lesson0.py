@@ -1,5 +1,5 @@
 
-from turtle import*
+from turtle import *
 speed(0)
 width(6)
 begin_fill()

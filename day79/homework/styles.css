@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.styled-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.name-input {
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+.registration-box {
+    border: 2px solid #b12704;
+    border-radius: 10px;
+    background-color: #e0f7e0;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.register-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b12704;
+    color: white;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: darkred;
+}
+
+/* Text alignment for the placeholder */
+input::placeholder {
+    text-align: center; /* Centering placeholder text */
+}
