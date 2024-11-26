@@ -1,0 +1,9 @@
+.center-box {
+    display: flex;
+    justify-content: center; /* X ღერძზე ცენტრირება */
+    align-items: center; /* Y ღერძზე ცენტრირება */
+    height: 200px; /* კონტეინერის სიმაღლე */
+    background-color: lightblue;
+    border: 1px solid steelblue;
+  }
+  

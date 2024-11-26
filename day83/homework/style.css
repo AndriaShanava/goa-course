@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* ან სხვა value */
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  .box {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  

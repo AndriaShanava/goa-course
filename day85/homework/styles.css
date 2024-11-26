@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* მრავალ რიგში განლაგებისთვის */
+    flex-direction: row; /* ელემენტები მარცხნიდან მარჯვნივ განლაგდებიან */
+    justify-content: space-around; /* სივრცე ელემენტებს შორის */
+    align-items: center; /* ვერტიკალური გასწორება */
+    align-content: space-between; /* რიგებს შორის სივრცე */
+    background-color: lightgray;
+    height: 300px; /* კონტეინერის სიმაღლე */
+  }
+  
+  .box {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    flex: 1 1 100px; /* ელემენტები დინამიურად შეავსებენ სივრცეს */
+  }
+  

@@ -1,0 +1,28 @@
+.flex-start {
+    display: flex;
+    justify-content: flex-start; /* ელემენტები კონტეინერის დასაწყისში */
+    background-color: lightcoral;
+    padding: 10px;
+  }
+  
+  .flex-end {
+    display: flex;
+    justify-content: flex-end; /* ელემენტები კონტეინერის ბოლოს */
+    background-color: lightgreen;
+    padding: 10px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center; /* ელემენტები ცენტრში */
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+  .space-between {
+    display: flex;
+    justify-content: space-between; /* თანაბარი სივრცე */
+    background-color: lightyellow;
+    padding: 10px;
+  }
+  

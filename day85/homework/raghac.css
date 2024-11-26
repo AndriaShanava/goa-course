@@ -1,0 +1,8 @@
+/* 2. თანაბარი დაშორების უზრუნველყოფა
+justify-content: space-between; გამოიყენეთ შემდეგნაირად: */
+
+.container {
+    display: flex;
+    justify-content: space-between; /* თანაბარი სივრცე ელემენტებს შორის */
+  }
+  
