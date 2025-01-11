@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa Travel</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: linear-gradient(45deg, #ff7e5f, #feb47b);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+
+        header nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #ffe5d9;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2rem;
+            gap: 2rem;
+        }
+
+        .main-photo {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .main-photo img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-text {
+            flex: 2;
+            min-width: 300px;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        footer .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        footer .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        footer .social-links a:hover {
+            color: #feb47b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Goa</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="main-photo">
+            <img src="https://via.placeholder.com/600x400" alt="Goa Beach">
+        </div>
+        <div class="main-text">
+            <h2>Discover the Paradise of Goa</h2>
+            <p>Goa, located on the western coast of India, is known for its stunning beaches, vibrant nightlife, and rich culture. Whether you are seeking relaxation or adventure, Goa has something to offer for everyone. Enjoy the picturesque sunsets, explore the local cuisine, and immerse yourself in the unique charm of this tropical paradise.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Explore Goa. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" title="Facebook">Facebook</a>
+            <a href="#" title="Twitter">Twitter</a>
+            <a href="#" title="Instagram">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

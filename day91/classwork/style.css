@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 200px;
+    gap: 10px; /* დაშორება ბლოკებს შორის */
+}
+
+.block {
+    flex: 1; /* თითოეული ელემენტი ტოლ სივრცეს იკავებს */
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
